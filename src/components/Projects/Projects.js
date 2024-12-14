@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import loschicos from "../../Assets/Projects/loschicos.png";
+import citeats from "../../Assets/Projects/citeats.png";
+import NarraLink from "../../Assets/Projects/narralink.png";
+import MotionSense from "../../Assets/Projects/motionsense.png";
+import PersonalAI from "../../Assets/Projects/PersonalAI.png";
 
 function Projects() {
   return (
@@ -23,70 +23,69 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={NarraLink}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="NarraLink"
+              description="A comprehensive platform integrating AI technologies into intellectual property management systems. Built to streamline IP workflows, enhance user experience, and deliver powerful features for efficient management. Developed using React.js, Django, and OpenAI APIs."
+              ghLink="https://github.com/EarlClaro/IPAMS-Deploy"
+              demoLink="https://drive.google.com/file/d/1tkbXjiXUYruAyke9X4X4705MTg2P83Dl/view?usp=sharing" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={PersonalAI}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="PersonalAI"
+              description="Developed a custom Bisaya-language chatbot using Streamlit and OpenAI, designed to provide user-friendly assistance and natural language interaction. "
+              ghLink="https://github.com/EarlClaro/GC-ka-Soho-Personalized-Bisaya-Chatbot"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={MotionSense}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="MotionSense"
+              description="MotionSense is a real-time motion detection system built with Python, OpenCV, and Tkinter.
+              It features an interactive UI, alert functionality, and adjustable motion sensitivity, 
+              making it a useful tool for security and monitoring applications. 
+              The project integrates a live video feed, detection alerts, and sound notifications."
+
+              ghLink="https://github.com/EarlClaro/GC-ka-Soho-Personalized-Bisaya-Chatbot?query=earlclaro%40gmail.com&fbclid=IwY2xjawHKGFtleHRuA2FlbQIxMAABHSH1BMxM8gJ_2O6nS-6mhVdL690pHjSug8EIBLe3ijuUjyOIhF4NXmqSJQ_aem_NzYWfZl7xFAuNHWjJDCb8w"
+                       
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={citeats}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="CIT Eats"
+              description="CIT Eats is a campus dining website guide designed to help students, faculty, and visitors 
+              explore local restaurants near CIT University. It features secure user authentication, restaurant management, 
+              detailed menus, user reviews and ratings, personalized favorites, and location-based navigation. 
+              The system enhances the dining experience by connecting users to the best local eateries with a user-friendly 
+              interface and robust functionality."
+
+              ghLink="https://github.com/EarlClaro/CITEats_CALI_IE"
+                       
             />
           </Col>
-
+         
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={loschicos}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
+              title="Los Chicos Minecraft Server Website"
+              description="A dynamic and engaging website for the Los Chicos Minecraft Server. Features include detailed server information, team profiles, rules, shop integration, and user-friendly navigation. Designed with HTML, CSS, and JavaScript to create a seamless and immersive experience for players and visitors."
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              ghLink="https://github.com/EarlClaro/Los-Chicos-Website/tree/master"
+                       
             />
           </Col>
+         
         </Row>
       </Container>
     </Container>
