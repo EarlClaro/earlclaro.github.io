@@ -1,68 +1,69 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
   DiPython,
-  DiGit,
+  DiDjango,
+  DiReact,
+  DiJavascript1,
+  DiNodejs,
   DiJava,
+  DiGit,
 } from "react-icons/di";
 import {
-  SiRedis,
+  SiDigitalocean,
+  SiAzuredevops,
+  SiMysql,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiGithub,
+  SiGitlab,
+  SiOpenai,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { FaDollarSign } from "react-icons/fa"; // Representing PayMongo with a dollar sign icon
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiDigitalocean />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiAzuredevops />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGitlab />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiOpenai /> {/* OpenAI Icon */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaDollarSign /> {/* Representing PayMongo API */}
       </Col>
     </Row>
   );

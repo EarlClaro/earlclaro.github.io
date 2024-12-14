@@ -33,7 +33,7 @@ function Home2() {
                 <b className="purple">Interesting Websites and integrating it with AI Technologies  </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  openAI and Gemini.
+                  OpenAI and Gemini.
                 </b>
               </i>
               <br />
