@@ -13,7 +13,15 @@ function AboutCard() {
             <br />
             I am currently a graduating 4th year BSIT Student in Cebu Insitute of Technology University.
             <br />
-            I am actively looking for OJT/Internship Opportunities.
+            I am interning as a Software Developer at
+            <a
+              href="https://en.sun-asterisk.com/works/"
+              target="_blank"
+              rel="noopener noreferrer"
+               className="link-no-underline"
+            >
+              Sun Asterisk Philippines.
+            </a>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
