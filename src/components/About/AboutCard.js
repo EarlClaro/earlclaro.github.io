@@ -13,7 +13,14 @@ function AboutCard() {
             <br />
             I am currently a graduating 4th year BSIT Student in Cebu Insitute of Technology University.
             <br />
-            I am actively looking for OJT/Internship Opportunities.
+            I am currently interning as a Software Developer at  <a
+              href="https://en.sun-asterisk.com/works/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-no-underline"
+            >
+              Sun Asterisk Philippines.
+            </a>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -30,8 +37,8 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "I want to build while learning"{" "}
+          <p style={{ color: "gold" }}>
+            "I code because its awesome"{" "}
           </p>
           <footer className="blockquote-footer">Earl</footer>
         </blockquote>

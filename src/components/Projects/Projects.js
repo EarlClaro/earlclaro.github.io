@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import loschicos from "../../Assets/Projects/loschicos.png";
-import citeats from "../../Assets/Projects/citeats.png";
+import citeats from "../../Assets/Projects/citeats.jpg";
 import NarraLink from "../../Assets/Projects/narralink.png";
 import MotionSense from "../../Assets/Projects/motionsense.png";
 import PersonalAI from "../../Assets/Projects/PersonalAI.png";
